@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: auto 0;
+}
+@keyframes rasm{
+    50%{
+        transform: scale(1.2);
+    }
+}
+.menus li a:hover{
+    color: royalblue;
+}
+
+
+header{
+    background-color: bisque;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+  }
+  .menus{
+    list-style: none;
+    display: flex;
+    gap: 60px;
+  }
+  .menus li a{
+    text-decoration: none;
+    color: black;
+    align-items: center;
+  }
+  .good{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 40px;
+  }
+  h1{
+    font-size: 60px;
+  }
+  p{
+    margin: 20px auto;
+  }
+  .green-btn{
+    background-color: #0A775F;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+  }
+  .rasm{
+    width: 600px;
+  }
+  .logo{
+    position: absolute;
+    width: 160px;
+    left: -80px;
+    top: -80px;
+  }
+  .cofe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+  }
+  h2{
+    font-size: 40px;
+  }
+  .cofee{
+    text-align: center;
+    padding: 60px 0;
+  }
+  .kopi:hover{
+    animation: rasm 1s infinite;
+  }
+  .us{
+    text-align: center;
+    padding: 40px 0 0 0;
+    background-color: #c18f52;
+    color: white;
+    position: relative;
+  }
+  .a{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 40px;
+    position: relative;
+    top: 40px;
+  }
+  .logoo{
+    position: absolute;
+    left: 2%;
+    bottom: 360px;
+  }
+  .bestt{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+  }
+  .uss{
+    text-align: center;
+    padding: 40px 0 0 0;
+    background-color: hsl(120, 76%, 18%);
+    color: white;
+  }
+  .s{
+    border: 1px solid greenyellow;
+    margin: 20px auto;
+    animation: rasm 1s infinite;
+  }
+  .sp{
+    text-align: end;
+    margin: 20px;
+    font-size: 30px;
+    color: #717171;
+  }
+  .boxs{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .box{
+    background-color: white;
+    color: black;
+    width: 400px;
+    height: 340px;
+    text-align: left;
+    padding: 16px;
+    border-radius: 2px;
+  }
+  .btn{
+    background-color: rgb(201, 171, 134);
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 50px;
+    margin: 20px auto;
+  }
+  .logos{
+    font-size: 26px;
+    display: flex;
+    gap: 20px;
+  }
+  footer{
+    background-color: bisque;
+  }
+  .our{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+  }
+  .our .s {
+    border: none;
+  }
+  .quality{
+    background-color: #967246;
+    color: white;
+    padding: 80px;
+  }
+  .q{
+    position: relative;
+    height: 200px;
+  }
+  .q img{
+    position: absolute;
+    left: 60%;
+    top: 10px;
+  }
+  .good-img{
+    position: relative;
+    top: 80px;
+  }
